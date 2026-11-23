@@ -1,0 +1,11 @@
+# geoChess for Veranda (tools/vpack.py)
+name        = geoChess
+class       = GeoChess
+version     = 1.3
+author      = Scott Hutter
+description = Chess for GEOS by Scott Hutter, ported to Veranda. Engine: BMCP by Maksim Korzh.
+mode        = 640x480
+api         = 5
+overlays    = banked
+icon        = icon.pbm
+tile        = tile.txt

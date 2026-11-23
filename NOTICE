@@ -1,0 +1,26 @@
+geoChess for Veranda
+====================
+
+geoChess is a chess game for GEOS 64/128 by Scott Hutter (November 2023,
+https://github.com/geos64128/geochess), with contributions from the
+authors in this repository's history. Its source comments say: "You are
+free to modify this code as desired, as long as original author credit
+is mentioned for both the GEOS code and the included AI engines." The
+upstream repository has no licence file; no licence is stated there.
+
+The chess engine (src/geochess-ai.h) is derived from BMCP v1.0 by Maksim
+Korzh (https://www.chessprogramming.org/BMCP), itself based on ideas from
+micro-Max by H.G. Muller; its header carries Maksim Korzh's notice (the
+WTFPL, version 2).
+
+This branch ("veranda") is the Veranda port of geoChess: Veranda is a
+GEOS-style desktop for the Commander X16 (640x480). The port is
+published and released with Veranda under the permission quoted above,
+with credit to Scott Hutter for geoChess and to Maksim Korzh for the
+BMCP engine it is derived from. The port's files
+(veranda/, tools/, the changes to src/ marked "Veranda port") are kept
+with geoChess and are NOT covered by Veranda's MIT licence; nothing of
+geoChess is part of Veranda's repository. veranda/test/play.s is adapted
+from Veranda's own test player (tests/sdk_play.s, MIT).
+
+Building: see veranda/README.md.
